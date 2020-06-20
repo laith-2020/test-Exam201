@@ -2,3 +2,100 @@
     padding: 0;
     margin: 0;
 }
+body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1 {
+    text-align: center;
+    background-color: #e12e5b;
+    color:  white;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    height: 60px;
+}
+#mainDiv {
+      /* display: flex; */
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+
+#form1{
+    width: fit-content;
+    margin-left: 100px; 
+    margin-right: 100px;
+}
+
+#title1 {
+    color: white;
+}
+#exDate {
+    color: white;
+
+}
+
+#fieldS {
+    padding: 20px;
+    text-align: center;
+    width: 330px;
+    height: 224px;
+    background-color: rgba(12, 11, 11, 0.6);
+    display: inline-block;
+    }
+
+#wishTitle {
+    width : 300px ;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  
+}
+#date {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width : 300px ;
+    height: 30px;
+   
+}
+
+#botton1 {
+    margin-top: 20px;
+    height: 40px;
+    width : 300px ;
+    background-color: #e12e5b;
+}
+#formDiv {
+width: fit-content;
+float: left;
+
+}
+
+#tableDiv {
+    min-height: 270px;
+    float: left;
+    width: fit-content;
+     background-color:rgb(17, 13, 13,0.6) ;
+}
+
+#tableDiv h2 {
+text-align: center;
+color: white;
+}
+
+#tableWish {
+    border: 2px solid black;
+   color: white;
+}
+
+#tableWish th {
+    border: 2px solid black;
+}
+
+#tableWish  td{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+   
+}
